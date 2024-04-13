@@ -101,7 +101,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // слушатель для кнопок
-    private View.OnClickListener listener = new View.OnClickListener() {
+    private final View.OnClickListener listener = new View.OnClickListener() {
+        @Override
+        public String toString() {
+            return "$classname{}";
+        }
+
         @Override
         public void onClick(View view) {
 

@@ -13,7 +13,7 @@
         android:text="Палитра для рисования 1.0"
         android:textSize="19sp"
         android:textStyle="bold"
-        android:textColor="#8E5DD5"
+        android:textColor="#2A6A2D"
         android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
